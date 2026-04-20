@@ -1,179 +1,130 @@
 <img alt="Master" height="350" width="1080" src="https://pixeljoint.com/files/icons/full/astebros_camp_loc.gif">
+
 <h1 align="center">Hi 👋, I'm Kaushik Roy</h1>
-<h3 align="center">I am AI/ML Engineer with solid knowledge in NLP , Computer Vision and AI powered projects. I usually work on Tensorflow.</h3>
+<h3 align="center">AI/ML Engineer | NLP · Computer Vision · Autonomous Agents | Backend & Full-Stack</h3>
+
 <img align="right" alt="Coding" height="300" width="400" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/737340/extras/WildLight_2x_Short.gif?t=1682704059">
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=kaushikml&label=Profile%20views&color=0e75b6&style=flat" alt="kaushikml" />
 </p>
 
-- 🔭 I’m currently working on **Autonomous agent system**
-- 🌱 I’m currently learning **Fine-tuning AI models**
-- 👯 I’m looking to collaborate on **Transformers Project**
-- 🤝 I’m looking for help with **Web Dev Frameworks**
-- 👨‍💻 All of my projects are available at [https://github.com/KaushikML](https://github.com/KaushikML)
-- 💬 Ask me about **AI agents, Deep Learning**
-- 📫 How to reach me **roykaushik354@gmail.com**
-- 📄 Know about my experiences [Resume (PDF)](https://drive.google.com/file/d/1mtEKsomhBYRfOi7BrPjNxfvOxWZHH2r2/view?usp=sharing)
-- ⚡ Fun fact **I always learn something new and then forget about it.**
+- 🔭 Currently building **Autonomous Agent Systems** (LangGraph, MCP, CrewAI)
+- 🌱 Exploring **Fine-tuning LLMs** and **RAG pipelines**
+- 👯 Open to collaborate on **Transformer-based & AI Agent projects**
+- 🤝 Looking for opportunities in **SWE (Backend/Full-Stack)** and **AI/ML Engineering**
+- 👨‍💻 All projects at [github.com/KaushikML](https://github.com/KaushikML)
+- 💬 Ask me about **AI agents, LLMs, Deep Learning, RAG**
+- 📫 Reach me at **roykaushik354@gmail.com**
+- 📄 My resume: [Resume (PDF)](https://drive.google.com/file/d/1mtEKsomhBYRfOi7BrPjNxfvOxWZHH2r2/view?usp=sharing)
+- ⚡ Fun fact: **I learn something new every day — and then promptly forget it.**
 
 ---
 
 ## 🛠️ Skills
 
-- **Languages:** Python, C++, C, Java, JavaScript, SQL  
-- **Frameworks & Libraries:** TensorFlow, PyTorch, Keras, Scikit-learn, Flask, Django, FastAPI, Gradio  
-- **AI & Agents:** OpenAI SDK, LangGraph, CrewAI, MCP Protocol, Autonomous Agents  
-- **Data & DevOps:** Pandas, NumPy, Matplotlib, Power BI, Tableau, AWS, Docker, NGINX, REST APIs  
-- **Testing & CI/CD:** Keploy, PyTest, GitHub Actions, GitLab CI, Jenkins  
-- **Tools:** Git, GitHub, Postman, VS Code, Linux, SQLite, PostgreSQL, MySQL, Selenium  
+- **Languages:** Python, C++, C, Java, JavaScript, SQL
+- **Frameworks & Libraries:** TensorFlow, PyTorch, Keras, Scikit-learn, Flask, Django, FastAPI, Gradio
+- **AI & Agents:** OpenAI SDK, LangGraph, CrewAI, MCP Protocol, LangChain, SentenceTransformers, RAG, FAISS, Qdrant, ChromaDB
+- **LLMs:** GPT-4/4o, Gemini, LLaMA, Claude — prompt engineering, tool-use, fine-tuning
+- **Data & DevOps:** Pandas, NumPy, Matplotlib, Power BI, Tableau, AWS, Docker, NGINX, REST APIs, Databricks, PySpark, MLflow, Delta Lake
+- **Testing & CI/CD:** Keploy, PyTest, GitHub Actions, GitLab CI, Jenkins
+- **Tools:** Git, GitHub, Postman, VS Code, Linux, SQLite, PostgreSQL, MySQL, Selenium, NetworkX
 
 ---
 
 ## 🚀 Notable Projects
 
-### Plagiarism & AI Content Detection Platform – Nokia Hackathon 2025 (Runner-Up)  
-- **Role:** Backend lead (teammate handled frontend)  
-- **Tech:** Flask, Google Gemini, RapidFuzz, Serper API, PDF generation  
-- **Highlights:**  
-  - Built secure APIs for file ingestion, AI probability scoring, and citation validation  
-  - Implemented semantic & exact-match checks against web sources  
-  - Automated PDF report generation detailing originality & AI-content scores  
+### 🏥 VF Health Copilot — Databricks + AI Healthcare Analytics
+- **Tech:** PySpark, Delta Lake, FAISS, Streamlit, Databricks, MLflow
+- Built a Bronze→Silver→Gold data pipeline on Ghana NGO healthcare data
+- Hybrid SQL + FAISS retrieval for contextual health queries
+- Anomaly detection on patient records with LLM-powered copilot interface
 
-### BrokerBots – MCP Autonomous Agent System  
-- **Role:** Full-stack developer  
-- **Tech:** Python, SQLite, Gradio, Polygon API, LLMs (GPT-4)  
-- **Highlights:**  
-  - Designed multi-agent personas for stock trading simulations  
-  - Orchestrated real-time data fetch with Brave Search & custom memory tooling  
-  - Developed modular tool-server architecture with tracing and persistence  
+### 🔍 Plagiarism & AI Content Detection Platform — Nokia Hackathon 2025 🥈 Runner-Up
+- **Role:** Backend Lead | **Tech:** Flask, Google Gemini, RapidFuzz, Serper API, PDF generation
+- Secure APIs for file ingestion, AI probability scoring, and citation validation
+- Semantic + exact-match checks against live web sources
+- Auto-generated PDF reports with originality and AI-content scores
 
-### AI-Powered Amazon Deals Notifier  
-- **Role:** System architect & developer  
-- **Tech:** ChromaDB, sentence-transformers, Random Forest, GPT-4o Mini, Pushover  
-- **Highlights:**  
-  - Processed 400K+ product embeddings for price evaluation  
-  - Automated RSS feed scanning every 5 minutes for deal alerts  
-  - Implemented push notifications and Gradio UI for interactive browsing  
+### 🤖 BrokerBots — MCP Autonomous Agent System
+- **Role:** Full-stack | **Tech:** Python, SQLite, Gradio, Polygon API, GPT-4, Brave Search
+- Multi-agent personas for stock trading simulations with real-time data
+- Modular tool-server architecture with tracing, memory tooling, and persistence
+
+### 🕷️ Spider Search — Web Crawler + AI Search Engine
+- Custom web crawler with intelligent indexing
+- Semantic search layer over crawled content using vector embeddings
+
+### 🎯 CNN + Transformer Ensemble — Malaria Detection
+- **Accuracy:** 92.6% on cell image classification
+- Hybrid CNN + Transformer architecture with custom data augmentation pipeline
+- Published comparative analysis on CNN augmentation strategies
+
+### 🛒 AI-Powered Amazon Deals Notifier
+- **Tech:** ChromaDB, SentenceTransformers, Random Forest, GPT-4o Mini, Pushover
+- Processed 400K+ product embeddings for smart deal evaluation
+- RSS feed scanning every 5 min with push notifications + Gradio UI
+
+### 🌐 AQFR — Adaptive QoS-based Flow Routing (Cisco Hackathon)
+- Network routing optimization using NetworkX and QoS metrics
+- Flow prioritization with adaptive rerouting under congestion
 
 ---
 
-## 🏆 Achievements & Interests
+## 🏆 Achievements
 
-- **ServiceNow Certified System Administrator (CSA)**
-- **Nokia Hackathon 2025 – 1st Runner-Up** for Plagiarism & AI Content Detector  
-- Published research on **Comparative Analysis of CNN Data Augmentation**  
-- **Interests:** Quantum computing theory, AI ethics, backtracking algorithms, consulting guesstimates  
-- **Passion:** Building real-world AI systems that automate complex decision workflows  
+- 🥈 **Nokia Hackathon 2025 — 1st Runner-Up** (Plagiarism & AI Content Detector)
+- 📜 **ServiceNow Certified System Administrator (CSA)**
+- 🎓 **B.Tech CSE, KIIT University** — CGPA 8.61
+- 📝 Published: *Comparative Analysis of CNN Data Augmentation Strategies*
+- 🧠 **Interests:** Quantum computing theory, AI ethics, backtracking algorithms, consulting guesstimates
+- 🔥 **Passion:** Building real-world AI systems that automate complex decision workflows
 
 ---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://twitter.com/kaushikml2024" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kaushikml2024" height="30" width="40" />
-  </a>
-  <a href="https://linkedin.com/in/kaushikml" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kaushikml" height="30" width="40" />
-  </a>
-  <a href="https://www.leetcode.com/kaushikroy12" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kaushikroy12" height="30" width="40" />
-  </a>
-</p>
+## 🤝 Connect with Me
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
-  </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  </a>
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/>
-  </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
-  </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
-  </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://heroku.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-  </a>
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/>
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
-  </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-  </a>
-  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/>
-  </a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-  </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
-  </a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
-  </a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
-  </a>
-  <a href="https://www.selenium.dev" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
-  </a>
-  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
-  </a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-  </a>
-</p>
+<table><tr>
+<td align="center"><a href="https://twitter.com/kaushikml2024" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a></td>
+<td align="center"><a href="https://linkedin.com/in/kaushikml" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a></td>
+<td align="center"><a href="https://www.leetcode.com/kaushikroy12" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a></td>
+</tr></table>
+
+---
+
+## 🧰 Languages and Tools
+
+<table><tr>
+<td align="center"><a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.tensorflow.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/></a></td>
+<td align="center"><a href="https://pytorch.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/></a></td>
+<td align="center"><a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/></a></td>
+<td align="center"><a href="https://opencv.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="40" height="40"/></a></td>
+<td align="center"><a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.djangoproject.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/></a></td>
+<td align="center"><a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/></a></td>
+</tr><tr>
+<td align="center"><a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/></a></td>
+<td align="center"><a href="https://aws.amazon.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/></a></td>
+<td align="center"><a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.postgresql.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.sqlite.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/></a></td>
+<td align="center"><a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40"/></a></td>
+</tr><tr>
+<td align="center"><a href="https://www.java.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a></td>
+<td align="center"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.cprogramming.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.w3schools.com/cpp/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/></a></td>
+<td align="center"><a href="https://postman.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.figma.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" height="40"/></a></td>
+<td align="center"><a href="https://www.selenium.dev" target="_blank"><img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="Selenium" width="40" height="40"/></a></td>
+</tr></table>
+
+---
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kaushikml&show_icons=true&locale=en&layout=compact" alt="kaushikml" /></p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kaushikml&show_icons=true&locale=en" alt="kaushikml" /></p>
