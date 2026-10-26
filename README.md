@@ -1,7 +1,7 @@
 <img alt="Master" height="350" width="1080" src="https://pixeljoint.com/files/icons/full/astebros_camp_loc.gif">
 
 <h1 align="center">Hi 👋, I'm Kaushik Roy</h1>
-<h3 align="center">AI/ML Engineer | NLP · Computer Vision · Autonomous Agents | Backend & Full-Stack</h3>
+<h3 align="center">GenAI Engineer @ Accenture | LLM Infrastructure · AI/ML · Backend & Full-Stack</h3>
 
 <img align="right" alt="Coding" height="300" width="400" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/737340/extras/WildLight_2x_Short.gif?t=1682704059">
 
@@ -9,12 +9,14 @@
   <img src="https://komarev.com/ghpvc/?username=kaushikml&label=Profile%20views&color=0e75b6&style=flat" alt="kaushikml" />
 </p>
 
-- 🔭 Currently building **Autonomous Agent Systems** (LangGraph, MCP, CrewAI)
-- 🌱 Exploring **Fine-tuning LLMs** and **RAG pipelines**
+- 🚀 Just shipped **[semcache](https://github.com/KaushikML/semcache)**, a semantic caching proxy for LLM APIs in C++20 ([demo video](https://www.youtube.com/watch?v=ACqn9-YiTxE))
+- 💼 GenAI Full Stack Engineer at **Accenture**, Bangalore
+- 🔭 Building **Autonomous Agent Systems** (LangGraph, MCP, CrewAI) and **LLM infrastructure**
+- 🌱 Exploring **Fine-tuning LLMs**, **RAG pipelines** and **Java/Spring Boot backends**
 - 👯 Open to collaborate on **Transformer-based & AI Agent projects**
 - 🤝 Looking for opportunities in **SWE (Backend/Full-Stack)** and **AI/ML Engineering**
 - 👨‍💻 All projects at [github.com/KaushikML](https://github.com/KaushikML)
-- 💬 Ask me about **AI agents, LLMs, Deep Learning, RAG**
+- 💬 Ask me about **AI agents, LLMs, caching, RAG, systems programming**
 - 📫 Reach me at **roykaushik354@gmail.com**
 - 📄 My resume: [Resume (PDF)](https://drive.google.com/file/d/1mtEKsomhBYRfOi7BrPjNxfvOxWZHH2r2/view?usp=sharing)
 - ⚡ Fun fact: **I learn something new every day — and then promptly forget it.**
@@ -23,10 +25,11 @@
 
 ## 🛠️ Skills
 
-- **Languages:** Python, C++, C, Java, JavaScript, SQL
+- **Languages:** Python, C++ (C++20), C, Java, JavaScript, SQL
 - **Frameworks & Libraries:** TensorFlow, PyTorch, Keras, Scikit-learn, Flask, Django, FastAPI, Gradio
-- **AI & Agents:** OpenAI SDK, LangGraph, CrewAI, MCP Protocol, LangChain, SentenceTransformers, RAG, FAISS, Qdrant, ChromaDB
+- **AI & Agents:** OpenAI SDK, LangGraph, CrewAI, MCP Protocol, LangChain, SentenceTransformers, ONNX Runtime, RAG, FAISS, Qdrant, ChromaDB
 - **LLMs:** GPT-4/4o, Gemini, LLaMA, Claude — prompt engineering, tool-use, fine-tuning
+- **Systems & Backend:** Boost.Asio/Beast, CMake, vcpkg, GoogleTest, sanitizers (ASan/UBSan/TSan), write-ahead logging, concurrency
 - **Data & DevOps:** Pandas, NumPy, Matplotlib, Power BI, Tableau, AWS, Docker, NGINX, REST APIs, Databricks, PySpark, MLflow, Delta Lake
 - **Testing & CI/CD:** Keploy, PyTest, GitHub Actions, GitLab CI, Jenkins
 - **Tools:** Git, GitHub, Postman, VS Code, Linux, SQLite, PostgreSQL, MySQL, Selenium, NetworkX
@@ -34,6 +37,15 @@
 ---
 
 ## 🚀 Notable Projects
+
+### ⚡ semcache — Semantic Caching Proxy for LLM APIs (C++20)
+- **Tech:** C++20, Boost.Asio/Beast, ONNX Runtime (all-MiniLM-L6-v2), HNSW, Docker, GoogleTest
+- Drop-in OpenAI-compatible proxy: exact + semantic cache hits, request coalescing (50 identical in-flight requests → 1 upstream call), and fail-open behaviour
+- Durable storage with snapshot + write-ahead log (CRC32C, torn-tail recovery); per-tenant isolation built into the cache key
+- 244 tests, with CI under ASan, UBSan and TSan; design doc and ADRs included
+- Measured on one laptop (WSL2): 24.5K req/s on exact hits (p50 1.0 ms), −81% upstream calls on a mixed workload
+- Published the weak spots too: 12.4% semantic recall at a 0.7% false-hit rate on Quora Question Pairs, and the negation failure case
+- [Code](https://github.com/KaushikML/semcache) · [Demo video](https://www.youtube.com/watch?v=ACqn9-YiTxE)
 
 ### 🏥 VF Health Copilot — Databricks + AI Healthcare Analytics
 - **Tech:** PySpark, Delta Lake, FAISS, Streamlit, Databricks, MLflow
@@ -75,8 +87,9 @@
 ## 🏆 Achievements
 
 - 🥈 **Nokia Hackathon 2025 — 1st Runner-Up** (Plagiarism & AI Content Detector)
+- 📜 **Databricks Certified Generative AI Engineer Associate**
 - 📜 **ServiceNow Certified System Administrator (CSA)**
-- 🎓 **B.Tech CSE, KIIT University** — CGPA 8.61
+- 🎓 **B.Tech CSE, KIIT University** — CGPA 8.66
 - 📝 Published: *Comparative Analysis of CNN Data Augmentation Strategies*
 - 🧠 **Interests:** Quantum computing theory, AI ethics, backtracking algorithms, consulting guesstimates
 - 🔥 **Passion:** Building real-world AI systems that automate complex decision workflows
